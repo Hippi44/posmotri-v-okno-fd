@@ -304,4 +304,5 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 
 .search-form__fieldset-title {
   font-weight: 400;
+  font-size: 18px;
 }
