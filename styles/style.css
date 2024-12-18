@@ -173,6 +173,7 @@ ol {
 }
 
 .search-form__checkbox-list {
+  position: relative;
   display: flex;
   gap: 39px;
 }
@@ -182,10 +183,6 @@ ol {
   flex-direction: column;
   gap: 5px;
   border: none;
-}
-
-.search-form__checkbox-list {
-  position: relative;
 }
 
 .search-form__label {
