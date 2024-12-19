@@ -308,3 +308,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   font-weight: 400;
   font-size: 18px;
 }
+
+.search-form__label-text:hover {
+  text-decoration: underline;
+}
