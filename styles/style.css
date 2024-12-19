@@ -76,19 +76,18 @@ ol {
   outline: 1px solid #fff;
 }
 
-.content__list-item a {
+.content__list-item .content__card-link {
   text-decoration: none;
   color: #fff;
 }
 
-.content__list-item a:hover {
+.content__list-item .content__card-link:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.content.content__list-item:hover {
-  text-decoration: underline;
-  cursor: pointer;
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__list-container {
@@ -111,6 +110,9 @@ ol {
   font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
@@ -244,7 +246,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 }
 
 .search-form__label:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -298,6 +299,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   text-transform: uppercase;
   line-height: 70.5px;
 }
+
 .content__accent {
   color: #545050;
 }
